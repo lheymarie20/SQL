@@ -1,0 +1,16 @@
+/** Books list:
+Naruto (4)
+Demon Slayer (3)
+One Piece (4)
+**/
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books VALUES (1, "Naruto", 4);
+INSERT INTO books VALUES (2, "Demon Slayer", 3);
+INSERT INTO books VALUES (3, "One Piece", 4);
+SELECT * FROM books;
+
+--display the database by rate.
+SELECT * FROM books store
+ORDER BY rate desc;
