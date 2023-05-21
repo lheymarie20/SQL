@@ -1,0 +1,19 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, color TEXT, price INTEGER , quantity INTEGER, size INTEGER);
+
+INSERT INTO store VALUES(1, "gym leggings", "white, black", 25,30, "s, m, l, xl");
+INSERT INTO store VALUES(2, "gym shorts", "white, black", 25,30, "s, m, l, xl");
+INSERT INTO store VALUES(3, "gym top", "white, black", 25,30, "s, m, l, xl");
+INSERT INTO store VALUES(4, "denim jacket", "blue, black", 45,60, "s, m, l, xl");
+INSERT INTO store VALUES(5, "denim pants", "blue, black", 45,60, "s, m, l, xl");
+INSERT INTO store VALUES(6, "t-shirts", "black, brown, white", 25,27, "s, m, l, xl");
+INSERT INTO store VALUES(7, "cropped top", "floral", 15,17, "s, m, l, xl");
+INSERT INTO store VALUES(8, "Socks", "black, white", 5,7, "s, m, l");
+INSERT INTO store VALUES(9, "fashion jewelry", "gold, silver", 10,15, "one sizes");
+INSERT INTO store VALUES(10, "sweaters", "black, brown", 45,60, "s, m, l, xl");
+INSERT INTO store VALUES(11, "dress", "pink, brown, black, nude", 15,25, "s, m, l, xl");
+INSERT INTO store VALUES(12, "panties", "pink, black, brown", 20,25, "s, m, l, xl");
+INSERT INTO store VALUES(13, "bras", "pink, black, brown", 20,25, "s, m, l, xl");
+INSERT INTO store VALUES(14, "blouse", "floral", 30,32, "s, m, l, xl");
+INSERT INTO store VALUES(15, "hats", "black, white, denim", 15,20, "one sizes");
+
+
